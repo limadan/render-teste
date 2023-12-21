@@ -1,5 +1,5 @@
 function getData() {
-    fetch('http://localhost:3000/api/data')
+    fetch('https://render-teste-iya7.onrender.com/api/data')
         .then(response => response.json())
         .then(data => {
             document.getElementById('data').textContent = `Dados do Backend:
